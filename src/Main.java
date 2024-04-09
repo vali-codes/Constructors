@@ -9,5 +9,17 @@ public class Main {
         benz1.printdetails();
         benz2.printdetails();
         benz3.printdetails();
+
+
+
+
+        // Polymorphism Part
+
+        Shape shape1 = new Rectangle();
+        Shape shape2 = new Rectangle();
+
+
+        shape1.draw();
+        shape2.draw();
     }
 }
